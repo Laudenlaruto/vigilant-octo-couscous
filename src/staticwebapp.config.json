@@ -15,7 +15,7 @@
               "clientSecretSettingName": "MY_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "http://localhost:8080/realms/iqera/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://9c4f-2a02-8440-3240-1371-6853-7e6d-8142-f21e.ngrok-free.app/realms/iqera/.well-known/openid-configuration"
             }
           },
           "login": {
