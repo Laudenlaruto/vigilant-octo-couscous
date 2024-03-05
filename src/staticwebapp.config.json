@@ -10,9 +10,9 @@
       "customOpenIdConnectProviders": {
         "myProvider": {
           "registration": {
-            "clientIdSettingName": "client",
+            "clientIdSettingName": "MY_PROVIDER_CLIENT_ID",
             "clientCredential": {
-              "clientSecretSettingName": "wo8fSgrn8aztGACDGjugQck9QL1Ol60yT"
+              "clientSecretSettingName": "MY_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
               "wellKnownOpenIdConfiguration": "http://localhost:8080/realms/iqera/.well-known/openid-configuration"
