@@ -1,20 +1,28 @@
 {
   "routes": [
     {
-        "route": "/*",
-        "allowedRoles": [
-            "authenticated"
-        ]
+      "route": "/*",
+      "allowedRoles": ["authenticated"]
     }
   ],
   "auth": {
     "identityProviders": {
-      "azureActiveDirectory": {
-        "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
-        "registration": {
-          "openIdIssuer": "TENANT_ID",
-          "clientIdSettingName": "AZURE_CLIENT_ID",
-          "clientSecretSettingName": "AZURE_CLIENT_SECRET"
+      "customOpenIdConnectProviders": {
+        "myProvider": {
+          "registration": {
+            "clientIdSettingName": "client",
+            "clientCredential": {
+              "clientSecretSettingName": "wo8fSgrn8aztGACDGjugQck9QL1Ol60yT"
+            },
+            "openIdConnectConfiguration": {
+              "wellKnownOpenIdConfiguration": "http://localhost:8080/realms/iqera/.well-known/openid-configuration"
+            }
+          },
+          "login": {
+            "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+            "scopes": [],
+            "loginParameterNames": []
+          }
         }
       }
     }
