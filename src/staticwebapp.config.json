@@ -21,7 +21,7 @@
               "clientSecretSettingName": "MY_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://iqera-test--key3.redpebble-5986d129.francecentral.azurecontainerapps.io/realms/iqera/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://keycloak-iqertt.azurewebsites.net/realms/iqera/.well-known/openid-configuration"
             }
           },
           "login": {
