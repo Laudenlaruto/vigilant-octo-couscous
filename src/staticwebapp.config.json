@@ -29,7 +29,7 @@
               "clientSecretSettingName": "MY_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://keycloak-iqera.azurewebsites.net/realms/iqera/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://kc-test.azurewebsites.net/realms/iqera/.well-known/openid-configuration"
             }
           },
           "login": {
