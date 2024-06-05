@@ -25,7 +25,7 @@
               "clientSecretSettingName": "MY_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://keycloak.dsosuite-qualif.iqera.app/realms/somfy/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://keycloak.dsosuite-qualif.iqera.app/realms/demo/.well-known/openid-configuration"
             }
           },
           "login": {
